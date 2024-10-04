@@ -14,7 +14,8 @@ class day1 {
     }
     public static void main(String[] args) {
         int nums[] = new int[] {1,2,3,2,4,5};
-        containsDuplicate(nums);
+        boolean ans = containsDuplicate(nums);
+        System.out.println(ans);
         
     }
 }
