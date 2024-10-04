@@ -1,8 +1,8 @@
 # 100-Days-of-Code
-<h1>🚀 #DrGVishwanathan Challenge - 100 Days of Code 🚀 </h1>
-<p>Welcome to my journey through the #DrGVishwanathan Challenge! This challenge is inspired by the popular 100 Days of Code, and I’m taking it up as part of an initiative from VIT Bhopal to sharpen my coding skills, solve new problems, and level up my understanding of data structures, algorithms, and more! 🧑‍💻💡 </p>
+<h1>🚀 #DrGViswanathan Challenge - 100 Days of Code 🚀 </h1>
+<p>Welcome to my journey through the #DrGViswanathan Challenge! This challenge is inspired by the popular 100 Days of Code, and I’m taking it up as part of an initiative from VIT Bhopal to sharpen my coding skills, solve new problems, and level up my understanding of data structures, algorithms, and more! 🧑‍💻💡 </p>
 
-<h2>🎯 What is the #DrGVishwanathan Challenge?</h2>
+<h2>🎯 What is the #DrGViswanathan Challenge?</h2>
 <p> The challenge is simple but powerful: for the next 100 days, I will be solving coding problems, learning new concepts, and improving my programming expertise. Each day will involve tackling a problem (or more!) from Leetcode, HackerRank, or other coding platforms, and documenting my progress right here!
 </p>
 
