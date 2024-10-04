@@ -7,6 +7,9 @@ public class day2 {
     }
     public static void main(String[] args) {
         int nums[] = new int[] {1,2,3};
-        getConcatenation(nums);
+        int ans[] = getConcatenation(nums);
+        for(int i=0; i<ans.length; i++) {
+            System.out.print(ans[i]+ " ");
+        }
     }
 }
