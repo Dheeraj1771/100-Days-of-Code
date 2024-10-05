@@ -25,7 +25,7 @@ public class day3 {
             }
         }
         public static void main(String[] args) {
-            boolean ans = isPalindrome(0);
+            boolean ans = isPalindrome(101);
             System.out.println(ans);
         }
     }
