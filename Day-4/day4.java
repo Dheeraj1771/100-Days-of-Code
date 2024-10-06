@@ -15,7 +15,7 @@ public class day4 {
         return rev;
     }
     public static void main(String[] args) {
-        int ans = reverse(122);
+        int ans = reverse(-122);
         System.out.println(ans);
     }
 }
