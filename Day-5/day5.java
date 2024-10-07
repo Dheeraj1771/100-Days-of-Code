@@ -21,7 +21,5 @@ public class day5 {
             System.out.print(ans[i] + " ");
         }
         System.out.print("]");
-
-        
     }
 }
