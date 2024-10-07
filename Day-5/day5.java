@@ -16,7 +16,12 @@ public class day5 {
     public static void main(String[] args) {
         int nums[] = new int[] {1,2,3,4,5,6,7};
         int ans[] = twoSum(nums, 9);
-        System.out.println(ans);
+        System.out.print("[ ");
+        for (int i=0; i<ans.length; i++) {
+            System.out.print(ans[i] + " ");
+        }
+        System.out.print("]");
+
         
     }
 }
