@@ -1,4 +1,4 @@
-//Day3/100: Leetcode: 7. Reverse Integer
+//Day3/100: LeetCode: 7. Reverse Integer
 public class day4 {
     public static int reverse(int x) {
         int rev = 0;

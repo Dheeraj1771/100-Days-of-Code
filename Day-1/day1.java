@@ -1,4 +1,4 @@
-//Day1/100: Leetcode: 217. Contains Duplicate
+//Day1/100: LeetCode: 217. Contains Duplicate
 import java.util.*;
 class day1 {
     public static boolean containsDuplicate(int[] nums) {

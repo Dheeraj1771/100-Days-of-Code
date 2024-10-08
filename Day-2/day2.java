@@ -1,4 +1,4 @@
-//Day2/100: Leetcode: 1929. Concatenation of Array
+//Day2/100: LeetCode: 1929. Concatenation of Array
 public class day2 {
     public static int[] getConcatenation(int[] nums) {
         int result[] = new int[nums.length * 2];

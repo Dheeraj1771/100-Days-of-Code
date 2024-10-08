@@ -1,4 +1,4 @@
-//Day3/100: Leetcode: 9. Palindrome Number
+//Day3/100: LeetCode: 9. Palindrome Number
 public class day3 {
     class Solution {
         public static boolean isPalindrome(int x) {

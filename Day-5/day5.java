@@ -1,4 +1,4 @@
-//Day5/100: Leetcode: 1. Two Sum 
+//Day5/100: LeetCode: 1. Two Sum 
 import java.util.*;
 public class day5 {
     public static int[] twoSum(int[] nums, int target) {
