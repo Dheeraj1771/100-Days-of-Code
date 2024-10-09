@@ -28,7 +28,4 @@ public class day7 {
         int val = romanToInt(s);
         System.out.println("The Integer Value of the Roman Number is: " + val);
     }
-
-
-
 }
