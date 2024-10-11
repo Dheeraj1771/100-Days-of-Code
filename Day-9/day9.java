@@ -30,6 +30,5 @@ public class day9 {
         String s = "({{}})";
         boolean ans = isValid(s);
         System.out.println(ans);
-
     }
 }
