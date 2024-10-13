@@ -1,4 +1,4 @@
-//Day9/100: LeetCode: 20. Valid Parentheses 
+//Day9/100: LeetCode: 26. Remove Duplicates from Sorted Array
 public class day10 {
     public static int removeDuplicates(int[] nums) {
         int j = 0;
