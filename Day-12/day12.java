@@ -21,6 +21,5 @@ public class day12 {
         int target = 5;
         int ans = searchInsert(nums, target);
         System.out.println(ans);
-    }
-    
+    } 
 }
