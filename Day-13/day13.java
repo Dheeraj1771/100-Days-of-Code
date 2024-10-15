@@ -20,6 +20,9 @@ public class day13 {
         return high;
     }
     public static void main(String[] args) {
+        int x = 28;
+        int ans = mySqrt(x);
+        System.out.println(ans);
         
     }
 }
