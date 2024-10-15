@@ -23,6 +23,5 @@ public class day13 {
         int x = 28;
         int ans = mySqrt(x);
         System.out.println(ans);
-        
     }
 }
