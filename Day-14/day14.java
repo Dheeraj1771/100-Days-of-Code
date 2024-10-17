@@ -1,4 +1,4 @@
-//Day13/100: LeetCode: 728. Self Dividing Numbers
+//Day14/100: LeetCode: 728. Self Dividing Numbers
 import java.util.*;
 public class day14 {
     public static List<Integer> selfDividingNumbers(int left, int right) {
