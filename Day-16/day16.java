@@ -1,4 +1,4 @@
-//Day15/100: LeetCode: 33. Search in Rotated Sorted Array
+//Day16/100: LeetCode: 33. Search in Rotated Sorted Array
 public class day16 {
     class Solution {
         public static int search(int[] nums, int target) {
