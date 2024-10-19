@@ -1,4 +1,4 @@
-
+//Day17/100: LeetCode: 3099. Harshad Number
 public class day17 {
     public static int sumOfTheDigitsOfHarshadNumber(int x) {
         int sum = 0;
