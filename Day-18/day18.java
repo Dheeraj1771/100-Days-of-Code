@@ -1,3 +1,4 @@
+//Day18/100: LeetCode: 263. Ugly Number
 public class day18{
     public static boolean isUgly(int n) {
         if(n==0) {
