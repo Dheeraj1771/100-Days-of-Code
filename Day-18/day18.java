@@ -19,6 +19,7 @@ public class day18{
     }
     public static void main(String[] args) {
         int n = 6;
-        isUgly(n);
+        boolean ans = isUgly(n);
+        System.out.println(ans);
     }
 }
