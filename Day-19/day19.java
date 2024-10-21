@@ -1,6 +1,6 @@
 //Day19/100: LeetCode: 367. Valid Perfect Square
 public class day19 {
-    public boolean isPerfectSquare(int num) {
+    public static boolean isPerfectSquare(int num) {
         if(num == 0 || num == 1) return true;
         int start = 2;
         int end = num/2;
@@ -16,5 +16,10 @@ public class day19 {
             }
         }
         return false;
+    }
+    public static void main(String[] args) {
+        int num = 64;
+        boolean ans = isPerfectSquare(num);
+        System.out.println(ans);
     }
 }
