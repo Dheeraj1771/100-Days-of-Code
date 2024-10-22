@@ -1,4 +1,4 @@
-//Day20/100: LeetCode: 367. Valid Perfect Square
+//Day20/100: LeetCode: 169. Majority Element 
 import java.util.Arrays;
 public class day20 {
     public static int majorityElement(int[] nums) {
