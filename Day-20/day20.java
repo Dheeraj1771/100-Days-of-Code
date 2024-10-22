@@ -6,6 +6,6 @@ public class day20 {
         return nums[nums.length/2];
     }
     public static void main(String[] args) {
-        
+        int nums[] = new int[] {1,2,2,3,4,1,1,2,2,2,2,3,2};
     }
 }
