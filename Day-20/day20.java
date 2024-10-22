@@ -5,4 +5,7 @@ public class day20 {
         Arrays.sort(nums);
         return nums[nums.length/2];
     }
+    public static void main(String[] args) {
+        
+    }
 }
