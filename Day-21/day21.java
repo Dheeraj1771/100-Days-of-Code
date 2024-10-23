@@ -13,6 +13,7 @@ public class day21 {
         int a = 44;
         int b = 40;
         int ans = commonFactors(a, b);
+        System.out.println(ans);
 
     }
     
