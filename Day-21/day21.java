@@ -14,7 +14,5 @@ public class day21 {
         int b = 6;
         int ans = commonFactors(a, b);
         System.out.println(ans);
-
     }
-    
 }
