@@ -10,8 +10,8 @@ public class day21 {
         return count;
     }
     public static void main(String[] args) {
-        int a = 44;
-        int b = 40;
+        int a = 12;
+        int b = 6;
         int ans = commonFactors(a, b);
         System.out.println(ans);
 
