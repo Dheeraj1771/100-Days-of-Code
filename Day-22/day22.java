@@ -14,6 +14,8 @@ public class day22 {
         return newdigits;
     }
     public static void main(String[] args) {
+        int digits[] = new int[] {9,9,9};
+        int ans[] = plusOne(digits);
         
     }
 }
