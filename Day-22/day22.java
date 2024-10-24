@@ -18,7 +18,7 @@ public class day22 {
         int ans[] = plusOne(digits);
         System.out.print("[");
         for(int i=0; i<ans.length; i++) {
-            System.out.print(ans[i]);
+            System.out.print(ans[i] + ",");
         }
         System.out.print("]");
         
