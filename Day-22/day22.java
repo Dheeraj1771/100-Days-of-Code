@@ -16,6 +16,11 @@ public class day22 {
     public static void main(String[] args) {
         int digits[] = new int[] {9,9,9};
         int ans[] = plusOne(digits);
+        System.out.print("[");
+        for(int i=0; i<ans.length; i++) {
+            System.out.print(ans[i]);
+        }
+        System.out.print("]");
         
     }
 }
