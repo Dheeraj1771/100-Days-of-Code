@@ -1,7 +1,6 @@
-
-
+//Day22/100: LeetCode: 507. Perfect Number
 public class day23 {
-    public boolean checkPerfectNumber(int num) {
+    public static boolean checkPerfectNumber(int num) {
         int sum = 0;
         for(int i=1; i<num; i++) {
             if(num % i == 0) {
@@ -13,6 +12,9 @@ public class day23 {
         } else {
             return false;
         }
+    }
+    public static void main(String[] args) {
+        
     }
     
 }
