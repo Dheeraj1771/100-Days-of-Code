@@ -14,7 +14,9 @@ public class day23 {
         }
     }
     public static void main(String[] args) {
-        
+        int num = 28;
+        boolean ans = checkPerfectNumber(num);
+        System.out.println(ans);
     }
     
 }
