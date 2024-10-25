@@ -18,5 +18,4 @@ public class day23 {
         boolean ans = checkPerfectNumber(num);
         System.out.println(ans);
     }
-    
 }
