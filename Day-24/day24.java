@@ -18,7 +18,5 @@ public class day24 {
         int k = 2;
         int ans = smallestRangeI(nums, k);
         System.out.println(ans);
-
-
     }  
 }
