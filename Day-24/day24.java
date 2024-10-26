@@ -1,6 +1,6 @@
 //Day24/100: LeetCode: 908. Smallest Range I
 public class day24 {
-    public int smallestRangeI(int[] nums, int k) {
+    public static int smallestRangeI(int[] nums, int k) {
         int min = nums[0];
         int max = nums[0];
         for(int i=0; i<nums.length; i++) {
@@ -16,7 +16,7 @@ public class day24 {
     public static void main(String[] args) {
         int nums[] = new int[] {0,10};
         int k = 2;
-        
+
 
     }  
 }
