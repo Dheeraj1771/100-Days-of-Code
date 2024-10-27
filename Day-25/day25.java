@@ -22,6 +22,6 @@ public class day25 {
     public static void main(String[] args) {
         int n = 19;
         boolean ans = isHappy(0);
+        System.out.println(ans);
     }
-    
 }
