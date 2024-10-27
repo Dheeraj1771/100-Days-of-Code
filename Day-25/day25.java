@@ -1,7 +1,7 @@
 //Day25/100: LeetCode: 202. Happy Number
 import java.util.*;
 public class day25 {
-    public boolean isHappy(int n) {
+    public static boolean isHappy(int n) {
         Set<Integer> hashSet = new HashSet<>();
         while (true) {
             int sum = 0;
@@ -18,6 +18,9 @@ public class day25 {
             }
             hashSet.add(n);
         }
+    }
+    public static void main(String[] args) {
+        
     }
     
 }
