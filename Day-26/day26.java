@@ -10,6 +10,6 @@ public class day26 {
     public static void main(String[] args) {
         int nums[] = new int[] {4,1,2,1,2};
         int ans = singleNumber(nums);
-        
+        System.out.println(ans);
     }
 }
