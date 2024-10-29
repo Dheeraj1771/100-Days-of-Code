@@ -1,5 +1,5 @@
 public class day27 {
-    public boolean isPowerOfThree(int n) {
+    public static boolean isPowerOfThree(int n) {
         if (n <= 0) {
             return false;
         }
@@ -16,5 +16,10 @@ public class day27 {
             }
         }
         return false;
+    }
+    public static void main(String[] args) {
+        int n = 27;
+        boolean ans = isPowerOfThree(n);
+        
     }
 }
