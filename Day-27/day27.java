@@ -20,6 +20,6 @@ public class day27 {
     public static void main(String[] args) {
         int n = 27;
         boolean ans = isPowerOfThree(n);
-        
+        System.out.println(ans);
     }
 }
