@@ -12,4 +12,7 @@ public class day28 {
         }
         return false;
     } 
+    public static void main(String[] args) {
+        
+    }
 }
