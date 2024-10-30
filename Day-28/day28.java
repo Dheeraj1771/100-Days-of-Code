@@ -15,5 +15,6 @@ public class day28 {
     public static void main(String[] args) {
         int n = 4;
         boolean ans = isPowerOfFour(n);
+        System.out.println(ans);
     }
 }
