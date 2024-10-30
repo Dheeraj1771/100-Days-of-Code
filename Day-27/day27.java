@@ -1,3 +1,4 @@
+//Day27/100: LeetCode: 326. Power of Three
 public class day27 {
     public static boolean isPowerOfThree(int n) {
         if (n <= 0) {
