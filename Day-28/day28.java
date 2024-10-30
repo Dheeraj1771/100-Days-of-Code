@@ -1,6 +1,6 @@
 //Day28/100: LeetCode: 342. Power of Four
 public class day28 {
-    public boolean isPowerOfFour(int n) {
+    public static boolean isPowerOfFour(int n) {
         if(n <= 0) {
             return false;
         } 
@@ -13,6 +13,7 @@ public class day28 {
         return false;
     } 
     public static void main(String[] args) {
-        
+        int n = 4;
+        boolean ans = isPowerOfFour(n);
     }
 }
