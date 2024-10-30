@@ -13,7 +13,7 @@ public class day28 {
         return false;
     } 
     public static void main(String[] args) {
-        int n = 4;
+        int n = 16;
         boolean ans = isPowerOfFour(n);
         System.out.println(ans);
     }
