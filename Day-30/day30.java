@@ -14,6 +14,6 @@ public class day30 {
     public static void main(String[] args) {
         int n = 4;
         boolean ans = isPowerOfTwo(n);
-        
+        System.out.println(ans);
     }
 }
