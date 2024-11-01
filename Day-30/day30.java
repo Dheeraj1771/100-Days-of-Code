@@ -12,6 +12,6 @@ public class day30 {
         return false;
     }
     public static void main(String[] args) {
-        boolean ans = 
+        boolean ans = isPowerOfTwo(n);
     }
 }
