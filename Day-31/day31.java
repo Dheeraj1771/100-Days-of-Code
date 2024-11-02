@@ -1,4 +1,4 @@
-//Day28/100: LeetCode: 342. 338. Counting Bits
+//Day31/100: LeetCode: 342. 338. Counting Bits
 public class day31 {
     public int[] countBits(int n) {
         int ans[] = new int[n + 1];
