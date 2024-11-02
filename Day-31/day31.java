@@ -8,12 +8,12 @@ public class day31 {
         return ans;
     }
     public static void main(String[] args) {
-        int n = 12;
+        int n = 5;
         int ans[] = new int[n + 1];
         ans = countBits(n);
-        System.out.println("[ ");
+        System.out.print("[ ");
         for(int i=0; i<ans.length; i++) {
-            System.out.println(ans[i] + " ");
+            System.out.print(ans[i] + " ");
         }
         System.out.println("]");
     }
