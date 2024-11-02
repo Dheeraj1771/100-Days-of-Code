@@ -1,3 +1,4 @@
+//Day28/100: LeetCode: 231. Power of Two
 public class day30 {
     public static boolean isPowerOfTwo(int n) {
         if(n <= 0) {
