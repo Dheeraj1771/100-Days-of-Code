@@ -1,6 +1,6 @@
 //Day32/100: LeetCode: 67. Add Binary
 public class day32 {
-    public String addBinary(String a, String b) {
+    public static String addBinary(String a, String b) {
         StringBuilder res = new StringBuilder();
         int i = a.length() - 1;
         int j = b.length() - 1;
@@ -18,5 +18,10 @@ public class day32 {
             res.append(carry);
         }
         return res.reverse().toString();
+    }
+    public static void main(String[] args) {
+        String a = "1010";
+        String b = "1011";
+        String ans = addBinary(a, b);
     }
 }
