@@ -23,5 +23,6 @@ public class day32 {
         String a = "1010";
         String b = "1011";
         String ans = addBinary(a, b);
+        System.out.println(ans);
     }
 }
