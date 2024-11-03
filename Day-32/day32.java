@@ -1,5 +1,4 @@
-
-
+//Day32/100: LeetCode: 67. Add Binary
 public class day32 {
     public String addBinary(String a, String b) {
         StringBuilder res = new StringBuilder();
