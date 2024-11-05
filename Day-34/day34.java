@@ -4,6 +4,6 @@ public class day34 {
         return (n % 4 != 0);
     }
     public static void main(String[] args) {
-        
+        boolean ans = canWinNim(n);
     }
 }
