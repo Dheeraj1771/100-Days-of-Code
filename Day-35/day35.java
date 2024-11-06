@@ -14,4 +14,7 @@ public class day35 {
         }
         return MonotonicInc || MonotonicDes;
     }
+    public static void main(String[] args) {
+        
+    }
 }
