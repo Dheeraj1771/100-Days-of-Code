@@ -1,6 +1,6 @@
 //Day35/100: LeetCode: 896. Monotonic Array
 public class day35 {
-    public boolean isMonotonic(int[] nums) {
+    public static boolean isMonotonic(int[] nums) {
         boolean MonotonicInc = true;
         boolean MonotonicDes = true;
 
