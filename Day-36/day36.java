@@ -12,5 +12,6 @@ public class day36 {
     public static void main(String[] args) {
         int nums[] = new int[] {6,2,6,5,1,2};
         int ans = arrayPairSum(nums);
+        System.out.println(ans);
     }
 }
