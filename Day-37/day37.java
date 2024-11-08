@@ -1,6 +1,6 @@
 //Day37/100: LeetCode: 53. Maximum Subarray
 public class day37 {
-    public int maxSubArray(int[] nums) {
+    public static int maxSubArray(int[] nums) {
         int maxsum = Integer.MIN_VALUE;
         int currsum = 0;
         for(int i=0; i<nums.length; i++) {
@@ -16,6 +16,6 @@ public class day37 {
     }
     public static void main(String[] args) {
         int nums[] = new int[] {-2,1,-3,4,-1,2,1,-5,4};
-        
+
     }
 }
