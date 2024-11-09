@@ -1,3 +1,5 @@
+//Day38/100: LeetCode: 349. Intersection of Two Arrays
+import java.util.*;     
 public class day38 {
     public int[] intersection(int[] nums1, int[] nums2) {
         HashSet<Integer> set1 = new HashSet<>();
