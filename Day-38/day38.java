@@ -20,6 +20,9 @@ public class day38 {
         return res;
     }
     public static void main(String[] args) {
-        
+        int nums1[] = new int[] {4,9,5};
+        int nums2[] = new int[] {9,4,9,8,4};
+
+        int ans[] = new int[];
     }
 }
