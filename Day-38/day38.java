@@ -22,7 +22,8 @@ public class day38 {
     public static void main(String[] args) {
         int nums1[] = new int[] {4,9,5};
         int nums2[] = new int[] {9,4,9,8,4};
-
-        int ans[] = new int[];
+        int ans[] = new int[Math.min(nums1.length, nums2.length)];
+        ans = intersection(nums1, nums2);
+        
     }
 }
