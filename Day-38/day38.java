@@ -1,7 +1,7 @@
 //Day38/100: LeetCode: 349. Intersection of Two Arrays
 import java.util.*;     
 public class day38 {
-    public int[] intersection(int[] nums1, int[] nums2) {
+    public static int[] intersection(int[] nums1, int[] nums2) {
         HashSet<Integer> set1 = new HashSet<>();
         HashSet<Integer> intersect = new HashSet<>();
         for(int i=0; i<nums1.length; i++) {
@@ -18,5 +18,8 @@ public class day38 {
             res[index++] = k;
         }
         return res;
+    }
+    public static void main(String[] args) {
+        
     }
 }
