@@ -24,6 +24,10 @@ public class day38 {
         int nums2[] = new int[] {9,4,9,8,4};
         int ans[] = new int[Math.min(nums1.length, nums2.length)];
         ans = intersection(nums1, nums2);
-        
+        System.out.print("[ ");
+        for(int i=0; i<ans.length; i++) {
+            System.out.print(ans[i] + " ");
+        }
+        System.out.println("]");
     }
 }
