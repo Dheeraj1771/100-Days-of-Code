@@ -13,5 +13,6 @@ public class day39 {
     public static void main(String[] args) {
         int n = 4421;
         int ans = subtractProductAndSum(n);
+        System.out.println(ans);
     }
 }
