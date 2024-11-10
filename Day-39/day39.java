@@ -1,3 +1,4 @@
+//Day39/100: LeetCode: 1281. Subtract the Product and Sum of Digits of an Integer
 public class day39 {
     public int subtractProductAndSum(int n) {
         int product = 1;
@@ -9,4 +10,5 @@ public class day39 {
         }
         return product - sum;
     }
+
 }
