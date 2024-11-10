@@ -10,5 +10,7 @@ public class day39 {
         }
         return product - sum;
     }
-
+    public static void main(String[] args) {
+        int n = 4421;
+    }
 }
