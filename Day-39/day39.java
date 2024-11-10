@@ -1,6 +1,6 @@
 //Day39/100: LeetCode: 1281. Subtract the Product and Sum of Digits of an Integer
 public class day39 {
-    public int subtractProductAndSum(int n) {
+    public static int subtractProductAndSum(int n) {
         int product = 1;
         int sum = 0;
         while(n != 0) {
