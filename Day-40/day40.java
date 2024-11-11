@@ -7,6 +7,7 @@ public class day40 {
     }
     public static void main(String[] args) {
         int n = 3;
-        int ans = 
+        int ans = numberOfCuts(n);
+        
     }
 }
