@@ -8,6 +8,6 @@ public class day40 {
     public static void main(String[] args) {
         int n = 3;
         int ans = numberOfCuts(n);
-        
+        System.out.println(ans);
     }
 }
