@@ -6,6 +6,6 @@ public class day40 {
         return n;
     }
     public static void main(String[] args) {
-        
+        int n = 3;
     }
 }
