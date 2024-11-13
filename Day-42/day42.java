@@ -8,4 +8,7 @@ public class day42 {
         }
         return decoded;
     }
+    public static void main(String[] args) {
+        int encoded[] = new int[] {1,2,3};
+    }
 }
