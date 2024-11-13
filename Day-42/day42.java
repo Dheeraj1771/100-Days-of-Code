@@ -11,6 +11,12 @@ public class day42 {
     public static void main(String[] args) {
         int encoded[] = new int[] {1,2,3};
         int first = 1;
-
+        int ans[] = new int[encoded.length+1];
+        ans = decode(encoded, first);
+        System.out.println("[ ");
+        for(int i=0; i<ans.length; i++) {
+            System.out.print(ans[i] + " ");
+        }
+        System.out.println("]");
     }
 }
