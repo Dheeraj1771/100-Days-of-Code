@@ -13,7 +13,7 @@ public class day42 {
         int first = 1;
         int ans[] = new int[encoded.length+1];
         ans = decode(encoded, first);
-        System.out.println("[ ");
+        System.out.print("[ ");
         for(int i=0; i<ans.length; i++) {
             System.out.print(ans[i] + " ");
         }
