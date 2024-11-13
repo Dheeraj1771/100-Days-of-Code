@@ -10,5 +10,6 @@ public class day42 {
     }
     public static void main(String[] args) {
         int encoded[] = new int[] {1,2,3};
+        int first = 1;
     }
 }
