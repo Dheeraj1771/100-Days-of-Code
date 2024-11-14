@@ -13,6 +13,6 @@ public class day43 {
     public static void main(String[] args) {
         int nums[] = new int[] {3,0,1};
         int ans = missingNumber(nums);
-        
+        System.out.println(ans);
     }
 }
