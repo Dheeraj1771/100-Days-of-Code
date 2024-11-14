@@ -11,6 +11,8 @@ public class day43 {
         return nums[nums.length-1] + 1;
     }
     public static void main(String[] args) {
-        int ans = 
+        int nums[] = new int[] {3,0,1};
+        int ans = missingNumber(nums);
+        
     }
 }
