@@ -10,4 +10,9 @@ public class day44 {
         }
         return suffled;
     }
+    public static void main(String[] args) {
+        int n = 3;
+        int nums[] = new int[] {2,5,1,3,4,7};
+        
+    }
 }
