@@ -1,4 +1,4 @@
-//Day42/100: LeetCode: 1720. Decode XORed Array
+//Day43/100: LeetCode: 1720. Decode XORed Array
 import java.util.*;
 public class day43 {
     public static int missingNumber(int[] nums) {
