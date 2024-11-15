@@ -14,9 +14,9 @@ public class day44 {
         int n = 3;
         int nums[] = new int[] {2,5,1,3,4,7};
         int ans[] = shuffle(nums, n);
-        System.out.println("[ ");
+        System.out.print("[ ");
         for(int i=0; i<ans.length; i++) {
-            System.out.println(ans[i] + " ");
+            System.out.print(ans[i] + " ");
         }
         System.out.println("]");
     }
