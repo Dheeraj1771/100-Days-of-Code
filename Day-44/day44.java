@@ -19,6 +19,5 @@ public class day44 {
             System.out.println(ans[i] + " ");
         }
         System.out.println("]");
-
     }
 }
