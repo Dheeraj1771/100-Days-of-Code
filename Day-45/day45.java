@@ -12,4 +12,7 @@ public class day45 {
         }
         return count;
     }
+    public static void main(String[] args) {
+        int arr1[] = new int[] {4,5,8};
+    }
 }
