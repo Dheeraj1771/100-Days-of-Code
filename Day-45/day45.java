@@ -17,6 +17,6 @@ public class day45 {
         int arr2[] = new int[] {10,9,1,8};
         int d = 2;
         int ans = findTheDistanceValue(arr1, arr2, d);
-        
+        System.out.println(ans);
     }
 }
