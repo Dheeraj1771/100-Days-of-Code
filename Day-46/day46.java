@@ -1,6 +1,6 @@
 //Day46/100: LeetCode: 1122. Relative Sort Array
 public class day46 {
-    public int[] relativeSortArray(int[] arr1, int[] arr2) {
+    public static int[] relativeSortArray(int[] arr1, int[] arr2) {
         int max_ele = 0;
         for(int i=0; i<arr1.length; i++) {
             if(arr1[i] > max_ele) max_ele = arr1[i];
@@ -30,6 +30,10 @@ public class day46 {
     public static void main(String[] args) {
         int arr1[] = new int[] {2,3,1,3,2,4,6,7,9,2,19};
         int arr2[] = new int[] {2,1,4,3,9,6};
-        int ans = 
+        int ans[] = relativeSortArray(arr1, arr2);
+        for(int i=0; i<ans.length; i++) {
+            
+        }
+
     }
 }
