@@ -1,3 +1,4 @@
+import java.util.*;
 public class day47 {
     public int thirdMax(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
@@ -15,4 +16,5 @@ public class day47 {
         int ind = arr.length;
         return arr[ind - 3];
     }
+    
 }
