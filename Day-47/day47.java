@@ -17,6 +17,8 @@ public class day47 {
         return arr[ind - 3];
     }
     public static void main(String[] args) {
-        int 
+        int nums[] = new int[] {1,1,2};
+        int ans = thirdMax(nums);
+        
     }
 }
