@@ -1,3 +1,4 @@
+//Day47/100: LeetCode: 414. Third Maximum Number
 import java.util.*;
 public class day47 {
     public static int thirdMax(int[] nums) {
@@ -19,6 +20,6 @@ public class day47 {
     public static void main(String[] args) {
         int nums[] = new int[] {1,1,2};
         int ans = thirdMax(nums);
-        
+        System.out.println(ans);
     }
 }
