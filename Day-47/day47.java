@@ -1,6 +1,6 @@
 import java.util.*;
 public class day47 {
-    public int thirdMax(int[] nums) {
+    public static int thirdMax(int[] nums) {
         HashSet<Integer> set = new HashSet<>();
         for(int element : nums) {
             set.add(element);
@@ -17,6 +17,6 @@ public class day47 {
         return arr[ind - 3];
     }
     public static void main(String[] args) {
-        
+        int 
     }
 }
