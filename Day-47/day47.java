@@ -16,5 +16,7 @@ public class day47 {
         int ind = arr.length;
         return arr[ind - 3];
     }
-    
+    public static void main(String[] args) {
+        
+    }
 }
