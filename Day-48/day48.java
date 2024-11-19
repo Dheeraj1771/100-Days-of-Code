@@ -8,6 +8,7 @@ public class day48 {
         return true;
     }
     public static void main(String[] args) {
-        
+        int nums[] = new int[] {2,1,4};
+        boolean ans = 
     }
 }
