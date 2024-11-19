@@ -9,6 +9,7 @@ public class day48 {
     }
     public static void main(String[] args) {
         int nums[] = new int[] {2,1,4};
-        boolean ans = 
+        boolean ans = isArraySpecial(nums);
+        System.out.println(ans);
     }
 }
