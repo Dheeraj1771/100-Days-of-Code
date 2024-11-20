@@ -1,3 +1,4 @@
+//Day48/100: LeetCode: 3151. Special Array I
 public class day48 {
     public static boolean isArraySpecial(int[] nums) {
         if(nums.length == 1) return true;
