@@ -13,5 +13,6 @@ public class day49 {
         int nums1[] = new int[] {2,6,4};
         int nums2[] = new int[] {9,7,5};
         int ans = addedInteger(nums1, nums2);
+        System.out.println(ans);
     }
 }
