@@ -10,6 +10,7 @@ public class day49 {
         return max2 - max1;
     }
     public static void main(String[] args) {
+        int nums1[] = new int[] {2,6,4};
         
     }
 }
