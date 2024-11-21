@@ -9,5 +9,6 @@ public class day50 {
     public static void main(String[] args) {
         int nums[] = new int[] {1,2,3,4};
         int ans[] = runningSum(nums);
+        System.out.println(ans);
     }
 }
