@@ -1,7 +1,7 @@
 //Day51/100: LeetCode: 219. Contains Duplicate II
 import java.util.*;
 public class day51 {
-    public boolean containsNearbyDuplicate(int[] nums, int k) {
+    public static boolean containsNearbyDuplicate(int[] nums, int k) {
         HashMap<Integer,Integer> map = new HashMap<>();
         for(int i=0; i<nums.length; i++) {
             int val = nums[i];
@@ -14,6 +14,8 @@ public class day51 {
         return false;
     }
     public static void main(String[] args) {
+        int nums[] = new int[] {1,2,3,1};
+        int k = 3;
         
     }
 }
