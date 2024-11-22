@@ -1,3 +1,5 @@
+//Day51/100: LeetCode: 219. Contains Duplicate II
+import java.util.*;
 public class day51 {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         HashMap<Integer,Integer> map = new HashMap<>();
@@ -10,5 +12,8 @@ public class day51 {
             }
         }
         return false;
+    }
+    public static void main(String[] args) {
+        
     }
 }
