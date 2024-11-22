@@ -16,6 +16,7 @@ public class day51 {
     public static void main(String[] args) {
         int nums[] = new int[] {1,2,3,1};
         int k = 3;
-        
+        boolean ans = containsNearbyDuplicate(nums, k);
+        System.out.println(ans);
     }
 }
