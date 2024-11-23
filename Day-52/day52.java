@@ -12,4 +12,7 @@ public class day52 {
         }
         return max;
     }
+    public static void main(String[] args) {
+        
+    }
 }
