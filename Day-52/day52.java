@@ -1,3 +1,4 @@
+//Day52/100: LeetCode: 485. Max Consecutive Ones
 public class day52 {
     public static int findMaxConsecutiveOnes(int[] nums) {
         int curr = 0;
