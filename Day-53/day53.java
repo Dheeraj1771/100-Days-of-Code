@@ -12,6 +12,7 @@ public class day53 {
     }
     public static void main(String[] args) {
         int n = 3;
-        int ans = fib
+        int ans = fib(n);
+        System.out.println(ans);
     }
 }
