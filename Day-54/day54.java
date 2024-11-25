@@ -1,5 +1,5 @@
 public class day54 {
-    public int findLucky(int[] arr) {
+    public static int findLucky(int[] arr) {
         int lucky_int = -1;
         int freq[] = new int[arr.length + 1];
         for(int i : arr) {
