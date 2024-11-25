@@ -15,6 +15,7 @@ public class day54 {
         return lucky_int;
     }
     public static void main(String[] args) {
+        int arr[] = new int[] {2,2,3,4};
         
     }
 }
