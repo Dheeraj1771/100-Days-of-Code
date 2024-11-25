@@ -16,6 +16,6 @@ public class day54 {
     }
     public static void main(String[] args) {
         int arr[] = new int[] {2,2,3,4};
-        
+        int ans = findLucky(arr);
     }
 }
