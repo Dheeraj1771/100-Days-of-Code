@@ -14,5 +14,6 @@ public class day55 {
     public static void main(String[] args) {
         String s = "A man, a plan, a canal: Panama";
         boolean ans = isPalindrome(s);
+        System.out.println(ans);
     }
 }
