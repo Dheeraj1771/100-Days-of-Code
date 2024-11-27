@@ -1,5 +1,5 @@
 public class day56 {
-    public int findNumbers(int[] nums) {
+    public static int findNumbers(int[] nums) {
         int res = 0;
         for(int i=0; i<nums.length; i++) {
             int count = 0;
@@ -12,5 +12,8 @@ public class day56 {
             }
         }
         return res;
+    }
+    public static void main(String[] args) {
+        
     }
 }
