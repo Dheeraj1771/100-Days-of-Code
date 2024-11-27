@@ -16,5 +16,6 @@ public class day56 {
     public static void main(String[] args) {
         int nums[] = new int[] {555,901,482,1771};
         int ans = findNumbers(nums);
+        System.out.println(ans);
     }
 }
