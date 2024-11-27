@@ -14,6 +14,7 @@ public class day56 {
         return res;
     }
     public static void main(String[] args) {
-        
+        int nums[] = new int[] {555,901,482,1771};
+        int ans = findNumbers(nums);
     }
 }
