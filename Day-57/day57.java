@@ -1,6 +1,6 @@
 //Day57/100: LeetCode: 520. Detect Capital
 public class day57 {
-    public boolean detectCapitalUse(String word) {
+    public static boolean detectCapitalUse(String word) {
         int lower = 0;
         int upper = 0;
         for(int i=0; i<word.length(); i++) {
@@ -20,5 +20,9 @@ public class day57 {
         else {
             return false;
         }
+    }
+    public static void main(String[] args) {
+        String word = "USA";
+        
     }
 }
