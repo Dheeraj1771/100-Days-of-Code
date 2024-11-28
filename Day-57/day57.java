@@ -23,6 +23,7 @@ public class day57 {
     }
     public static void main(String[] args) {
         String word = "USA";
-        
+        boolean ans = detectCapitalUse(word);
+        System.out.println(ans);
     }
 }
