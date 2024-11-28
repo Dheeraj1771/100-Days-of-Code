@@ -1,3 +1,4 @@
+//Day55/100: LeetCode: 520. Detect Capital
 public class day57 {
     public boolean detectCapitalUse(String word) {
         int lower = 0;
