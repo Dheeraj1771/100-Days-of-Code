@@ -8,6 +8,7 @@ public class day58 {
         return sb.toString().trim();
     }
     public static void main(String[] args) {
+        String S = "Hello how are you Contestant";
         
     }
 }
