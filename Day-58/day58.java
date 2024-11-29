@@ -9,6 +9,8 @@ public class day58 {
     }
     public static void main(String[] args) {
         String S = "Hello how are you Contestant";
+        int k = 4;
+        String ans = truncateSentence(S, k);
         
     }
 }
