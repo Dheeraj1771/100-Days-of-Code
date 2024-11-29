@@ -11,6 +11,6 @@ public class day58 {
         String S = "Hello how are you Contestant";
         int k = 4;
         String ans = truncateSentence(S, k);
-        
+        System.out.println(ans);
     }
 }
