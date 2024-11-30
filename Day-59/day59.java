@@ -14,6 +14,7 @@ public class day59 {
         else return false;
     }
     public static void main(String[] args) {
-       boolean ans = isBalanced(num); 
+        String num = "24123";
+        boolean ans = isBalanced(num); 
     }
 }
