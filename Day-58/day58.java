@@ -1,3 +1,4 @@
+//Day58/100: LeetCode: 1816. Truncate Sentence
 public class day58 {
     public static String truncateSentence(String s, int k) {
         String arr[] = s.split(" ");
