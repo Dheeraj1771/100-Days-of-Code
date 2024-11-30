@@ -1,6 +1,6 @@
 //Day59/100: LeetCode: 3340. Check Balanced String
 public class day59 {
-    public boolean isBalanced(String num) {
+    public static boolean isBalanced(String num) {
         int odd = 0;
         int even = 0;
         char arr[] = num.toCharArray();
@@ -12,5 +12,8 @@ public class day59 {
         }
         if(odd == even) return true;
         else return false;
+    }
+    public static void main(String[] args) {
+        
     }
 }
