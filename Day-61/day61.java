@@ -1,6 +1,6 @@
 //Day60/100: LeetCode 28. Find the Index of the First Occurrence in a String
 public class day61 {
-    public int strStr(String haystack, String needle) {
+    public static int strStr(String haystack, String needle) {
         if(needle.length() > haystack.length()) {
             return -1;
         }
@@ -10,5 +10,10 @@ public class day61 {
             }
         }
         return -1;
+    }
+    public static void main(String[] args) {
+        String haystack = "HelloWorld";
+        String needle = "Hello";
+
     }
 }
