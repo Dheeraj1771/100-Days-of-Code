@@ -1,4 +1,4 @@
-//Day60/100: LeetCode: 3340. Check Balanced String
+//Day60/100: LeetCode: 1374. Generate a String With Characters That Have Odd Counts
 public class day60 {
     public static String generateTheString(int n) {
         StringBuilder sb = new StringBuilder();
