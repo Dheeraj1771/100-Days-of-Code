@@ -17,5 +17,6 @@ public class day60 {
     public static void main(String[] args) {
         int n = 4;
         String ans = generateTheString(n);
+        System.out.println(ans);
     }
 }
