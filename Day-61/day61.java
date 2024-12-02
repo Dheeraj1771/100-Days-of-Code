@@ -14,6 +14,7 @@ public class day61 {
     public static void main(String[] args) {
         String haystack = "HelloWorld";
         String needle = "Hello";
-
+        int ans = strStr(haystack, needle);
+        System.out.println(ans);
     }
 }
