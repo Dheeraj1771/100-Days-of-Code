@@ -1,5 +1,6 @@
+//Day60/100: LeetCode: 3340. Check Balanced String
 public class day60 {
-    public String generateTheString(int n) {
+    public static String generateTheString(int n) {
         StringBuilder sb = new StringBuilder();
         if(n%2 == 0) {
             for(int i=0; i<n-1; i++) {
@@ -14,6 +15,7 @@ public class day60 {
         return sb.toString();
     }
     public static void main(String[] args) {
-        
+        int n = 4;
+        String ans = generateTheString(n);
     }
 }
