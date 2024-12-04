@@ -14,6 +14,7 @@ public class day63 {
         System.out.println("]");
     }
     public static void main(String[] args) {
-        
+        char s[] = new char[] {'h','e','l','l','o'};
+        reverseString(s);
     }
 }
