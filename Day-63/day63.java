@@ -7,11 +7,11 @@ public class day63 {
             s[j] = k;
             j--;
         }
-        System.out.println("[ ");
+        System.out.print("[ ");
         for(int i=0; i<s.length; i++) {
-            System.out.println(s[i] + " ");
+            System.out.print(s[i] + " ");
         }
-        System.out.println("]");
+        System.out.print("]");
     }
     public static void main(String[] args) {
         char s[] = new char[] {'h','e','l','l','o'};
