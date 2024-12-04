@@ -7,5 +7,10 @@ public class day63 {
             s[j] = k;
             j--;
         }
+        System.out.println("[ ");
+        for(int i=0; i<s.length; i++) {
+
+        }
     }
+
 }
