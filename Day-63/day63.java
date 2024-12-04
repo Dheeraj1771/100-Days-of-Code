@@ -9,8 +9,9 @@ public class day63 {
         }
         System.out.println("[ ");
         for(int i=0; i<s.length; i++) {
-
+            System.out.println(s[i] + " ");
         }
+        System.out.println("]");
     }
 
 }
