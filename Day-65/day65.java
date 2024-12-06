@@ -1,3 +1,4 @@
+//Day65/100: LeetCode 796. Rotate String
 public class day65 {
     public static boolean rotateString(String s, String goal) {
         if(s.length() != goal.length()) {
