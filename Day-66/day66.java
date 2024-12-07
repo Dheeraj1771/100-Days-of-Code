@@ -12,6 +12,7 @@ public class day66 {
         return perdiff;
     }
     public static void main(String[] args) {
-        
+        String s = "abc";
+        String t = "bac";
     }
 }
