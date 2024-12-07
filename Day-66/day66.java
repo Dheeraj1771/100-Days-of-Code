@@ -1,5 +1,6 @@
+import java.util.*;
 public class day66 {
-    public int findPermutationDifference(String s, String t) {
+    public static int findPermutationDifference(String s, String t) {
         int perdiff = 0;
         Map<Character, Integer> map = new HashMap<>();
         for(int i=0; i<t.length(); i++) {
@@ -9,5 +10,8 @@ public class day66 {
             perdiff += Math.abs(i - map.get(s.charAt(i)));
         }
         return perdiff;
+    }
+    public static void main(String[] args) {
+        
     }
 }
