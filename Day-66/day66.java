@@ -14,5 +14,7 @@ public class day66 {
     public static void main(String[] args) {
         String s = "abc";
         String t = "bac";
+        int ans = findPermutationDifference(s, t);
+        System.out.println(ans);
     }
 }
