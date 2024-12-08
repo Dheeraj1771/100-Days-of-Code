@@ -8,6 +8,6 @@ public class day67 {
     }
     public static void main(String[] args) {
         String s = "hello";
-        
+        int ans = scoreOfString(s);
     }
 }
