@@ -1,5 +1,5 @@
 public class day68 {
-    public String firstPalindrome(String[] words) {
+    public static String firstPalindrome(String[] words) {
         for(int i=0; i<words.length; i++) {
             StringBuilder sb = new StringBuilder();
             String s = words[i];
@@ -12,5 +12,9 @@ public class day68 {
             
         }
         return "";
+    }
+    public static void main(String[] args) {
+        String words[] = new String[] {"abc","car","ada","racecar","cool"};
+
     }
 }
