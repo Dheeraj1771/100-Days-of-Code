@@ -16,6 +16,6 @@ public class day68 {
     public static void main(String[] args) {
         String words[] = new String[] {"abc","car","ada","racecar","cool"};
         String ans = firstPalindrome(words);
-        
+        System.out.println(ans);
     }
 }
