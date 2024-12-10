@@ -12,6 +12,7 @@ public class day69 {
         return sb.toString();
     }
     public static void main(String[] args) {
-        
+        String address = "1.1.1.1";
+        String ans = defangIPaddr(address);
     }
 }
