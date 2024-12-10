@@ -1,5 +1,5 @@
 public class day69 {
-    public String defangIPaddr(String address) {
+    public static String defangIPaddr(String address) {
         StringBuilder sb = new StringBuilder();
         for(char c : address.toCharArray()) {
             if(c == '.') {
@@ -9,5 +9,8 @@ public class day69 {
             }
         }
         return sb.toString();
+    }
+    public static void main(String[] args) {
+        
     }
 }
