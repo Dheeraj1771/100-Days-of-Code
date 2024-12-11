@@ -12,4 +12,8 @@ public class day70 {
         }
         return count;
     }
+    public static void main(String[] args) {
+        String jewel = "AD";
+        String stones = "ADaabbccAD";
+    }
 }
