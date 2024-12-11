@@ -15,5 +15,7 @@ public class day70 {
     public static void main(String[] args) {
         String jewel = "AD";
         String stones = "ADaabbccAD";
+        int ans = numJewelsInStones(jewel, stones);
+        System.out.println(ans);
     }
 }
