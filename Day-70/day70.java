@@ -1,5 +1,5 @@
 public class day70 {
-    public int numJewelsInStones(String jewels, String stones) {
+    public static int numJewelsInStones(String jewels, String stones) {
         char arr1[] = jewels.toCharArray();
         char arr2[] = stones.toCharArray();
         int count = 0;
