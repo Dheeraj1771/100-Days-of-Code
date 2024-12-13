@@ -12,6 +12,6 @@ public class day72 {
     public static void main(String[] args) {
         String s = "Hello, my name is Dheeraj";
         int ans = countSegments(s);
-        
+        System.out.println(ans);
     }
 }
