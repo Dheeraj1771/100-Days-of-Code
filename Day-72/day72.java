@@ -1,5 +1,5 @@
 public class day72 {
-    public int countSegments(String s) {
+    public static int countSegments(String s) {
         int count = 0;
         String arr[] = s.split(" ");
         for(String c : arr) {
@@ -11,6 +11,7 @@ public class day72 {
     }
     public static void main(String[] args) {
         String s = "Hello, my name is Dheeraj";
+        int ans = countSegments(s);
         
     }
 }
