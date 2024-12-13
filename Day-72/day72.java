@@ -1,3 +1,4 @@
+//Day72/100: LeetCode 434. Number of Segments in a String
 public class day72 {
     public static int countSegments(String s) {
         int count = 0;
