@@ -8,6 +8,8 @@ public class day72 {
             }
         }
         return count;
-
+    }
+    public static void main(String[] args) {
+        
     }
 }
