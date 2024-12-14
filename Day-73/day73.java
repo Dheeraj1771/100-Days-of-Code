@@ -19,6 +19,7 @@ public class day73 {
         return up == down && left == right;
     }
     public static void main(String[] args) {
+        String moves = "UD";
         
     }
 }
