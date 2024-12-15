@@ -1,5 +1,5 @@
 public class day74 {
-    public String toLowerCase(String s) {
+    public static String toLowerCase(String s) {
         char res[] = s.toCharArray();
         for(int i=0; i<s.length(); i++) {
             res[i] = Character.toLowerCase(res[i]);
@@ -7,4 +7,5 @@ public class day74 {
         String a = new String(res);
         return a;
     }
+
 }
