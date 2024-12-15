@@ -7,5 +7,7 @@ public class day74 {
         String a = new String(res);
         return a;
     }
-
+    public static void main(String[] args) {
+        
+    }
 }
