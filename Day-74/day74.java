@@ -8,6 +8,7 @@ public class day74 {
         return a;
     }
     public static void main(String[] args) {
+        String s = "Hello World";
         
     }
 }
