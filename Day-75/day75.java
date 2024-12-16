@@ -28,4 +28,8 @@ public class day75 {
             return false;
         }
     }
+    public static void main(String[] args) {
+        String s = "ad";
+        String goal = "da";
+    }
 }
