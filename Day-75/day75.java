@@ -1,7 +1,7 @@
 //Day75/100: LeetCode 859. Buddy Strings
 import java.util.*;
 public class day75 {
-    public boolean buddyStrings(String s, String goal) {
+    public static boolean buddyStrings(String s, String goal) {
         if(s.length() != goal.length()) return false;
         if(s.equals(goal)) {
             Set<Character> unique_chars = new HashSet<>();
@@ -31,5 +31,7 @@ public class day75 {
     public static void main(String[] args) {
         String s = "ad";
         String goal = "da";
+        boolean ans = buddyStrings(s, goal);
+        System.out.println(ans);
     }
 }
