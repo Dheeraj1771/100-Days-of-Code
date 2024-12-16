@@ -1,3 +1,5 @@
+
+import java.util.*;
 public class day75 {
     public boolean buddyStrings(String s, String goal) {
         if(s.length() != goal.length()) return false;
