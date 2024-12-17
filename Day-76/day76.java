@@ -13,4 +13,8 @@ public class day76 {
         }
         return arrlst;
     }
+    public static void main(String[] args) {
+        String words[] = new String[] {"leet","code"};
+        char x = 'e';
+    }
 }
