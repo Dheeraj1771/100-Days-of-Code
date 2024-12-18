@@ -13,6 +13,6 @@ public class day77 {
     }
     public static void main(String[] args) {
         String operations[] = new String[] {"--X","X++","X++"};
-
+        int ans = finalValueAfterOperations(operations);
     }
 }
