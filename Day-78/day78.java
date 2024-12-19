@@ -19,6 +19,7 @@ public class day78 {
         return res;
     }
     public static void main(String[] args) {
-        String ans =
+        String command = "G()(al)";
+        String ans = 
     }
 }
