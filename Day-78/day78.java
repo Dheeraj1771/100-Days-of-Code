@@ -1,3 +1,4 @@
+//Day78/100: LeetCode 1678. Goal Parser Interpretation
 public class day78 {
     public String interpret(String command) {
         String res = "";
