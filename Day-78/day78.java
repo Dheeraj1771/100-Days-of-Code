@@ -21,5 +21,6 @@ public class day78 {
     public static void main(String[] args) {
         String command = "G()(al)";
         String ans = interpret(command);
+        System.out.println(ans);
     }
 }
