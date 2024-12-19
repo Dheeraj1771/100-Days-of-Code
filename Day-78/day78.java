@@ -1,6 +1,6 @@
 //Day78/100: LeetCode 1678. Goal Parser Interpretation
 public class day78 {
-    public String interpret(String command) {
+    public static String interpret(String command) {
         String res = "";
         for(int i=0; i<command.length(); i++) {
             if(command.charAt(i) == 'G') {
