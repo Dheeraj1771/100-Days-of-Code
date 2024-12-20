@@ -7,4 +7,8 @@ public class day79 {
         }
         return maxlen;
     }
+    public static void main(String[] args) {
+        String sentences[] = new String[] {"alice and bob love leetcode", "i think so too", "this is great thanks very much"};
+        
+    }
 }
