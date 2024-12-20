@@ -1,5 +1,5 @@
 public class day79 {
-    public int mostWordsFound(String[] sentences) {
+    public static int mostWordsFound(String[] sentences) {
         int maxlen = 0;
         for(String s : sentences) {
             int currlen = s.split(" ").length;
@@ -9,6 +9,6 @@ public class day79 {
     }
     public static void main(String[] args) {
         String sentences[] = new String[] {"alice and bob love leetcode", "i think so too", "this is great thanks very much"};
-        
+        int ans = mostWordsFound(sentences);
     }
 }
