@@ -18,5 +18,6 @@ public class day80 {
     }
     public static void main(String[] args) {
         int n = 6;
+        System.out.println(fizzBuzz(n));
     }
 }
