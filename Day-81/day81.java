@@ -18,6 +18,6 @@ public class day81 {
     public static void main(String[] args) {
         String word1[] = new String[] {"leet", "code"};
         String word2[] = new String[] {"le", "et", "co", "de"};
-
+        boolean ans = arrayStringsAreEqual(word1, word2);
     }
 }
