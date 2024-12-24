@@ -1,4 +1,4 @@
-//Day80/100: LeetCode 1662. Check If Two String Arrays are Equivalent
+//Day81/100: LeetCode 1662. Check If Two String Arrays are Equivalent
 public class day81 {
     public static boolean arrayStringsAreEqual(String[] word1, String[] word2) {
         String w1 = "";

@@ -1,3 +1,4 @@
+//Day83/100: LeetCode 1512. Number of Good Pairs
 public class day83 {
     public int numIdenticalPairs(int[] nums) {
         int count = 0;

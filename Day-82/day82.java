@@ -1,4 +1,4 @@
-//Day81/100: LeetCode 1920. Build Array from Permutation
+//Day82/100: LeetCode 1920. Build Array from Permutation
 public class day82 {
     public static int[] buildArray(int[] nums) {
         int ans[] = new int[nums.length];
