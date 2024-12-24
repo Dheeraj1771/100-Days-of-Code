@@ -12,6 +12,6 @@ public class day83 {
         return count;
     }
     public static void main(String[] args) {
-        
+        int nums[] = new int[] {1,1,1,1};
     }
 }
