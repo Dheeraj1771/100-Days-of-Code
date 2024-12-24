@@ -13,5 +13,7 @@ public class day83 {
     }
     public static void main(String[] args) {
         int nums[] = new int[] {1,1,1,1};
+        int ans = numIdenticalPairs(nums);
+        System.out.println(ans);
     }
 }
