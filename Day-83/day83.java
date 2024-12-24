@@ -10,4 +10,7 @@ public class day83 {
         }
         return count;
     }
+    public static void main(String[] args) {
+        
+    }
 }
