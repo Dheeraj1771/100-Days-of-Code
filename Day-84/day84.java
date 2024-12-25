@@ -17,6 +17,12 @@ public class day84 {
     }
     public static void main(String[] args) {
         int nums[] = new int[] {0,1,1,0};
-
+        int ans [] = getSneakyNumbers(nums);
+        System.out.print("[ ");
+        for(int i : ans) {
+            System.out.print(i + " ");
+        }
+        System.out.print("]");
+        
     }
 }
