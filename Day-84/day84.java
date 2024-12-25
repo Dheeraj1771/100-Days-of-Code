@@ -23,6 +23,5 @@ public class day84 {
             System.out.print(i + " ");
         }
         System.out.print("]");
-        
     }
 }
