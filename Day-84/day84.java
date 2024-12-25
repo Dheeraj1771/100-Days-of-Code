@@ -1,3 +1,4 @@
+//Day84/100: LeetCode 3289. The Two Sneaky Numbers of Digitville
 import java.util.*;
 public class day84 {
     public int[] getSneakyNumbers(int[] nums) {
@@ -13,5 +14,8 @@ public class day84 {
             }
         }
         return arr;
+    }
+    public static void main(String[] args) {
+        
     }
 }
