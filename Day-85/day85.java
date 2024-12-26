@@ -1,4 +1,4 @@
-public class day85 {
+public static class day85 {
     public int minimumOperations(int[] nums) {
         int op = 0;
         for(int i: nums) {
@@ -7,5 +7,8 @@ public class day85 {
             }
         }
         return op;
+    }
+    public static void main(String[] args) {
+        
     }
 }
