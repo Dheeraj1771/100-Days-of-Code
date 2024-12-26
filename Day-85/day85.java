@@ -1,5 +1,6 @@
-public static class day85 {
-    public int minimumOperations(int[] nums) {
+//Day85/100: LeetCode 3190. Find Minimum Operations to Make All Elements Divisible by Three
+public class day85 {
+    public static int minimumOperations(int[] nums) {
         int op = 0;
         for(int i: nums) {
             if(i%3 == 1 || i%3 == 2) {
