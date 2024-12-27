@@ -14,5 +14,6 @@ public class day86 {
     public static void main(String[] args) {
         int accounts[][] = new int[][] {{1,2,3} ,{3,2,1}};
         int ans = maximumWealth(accounts);
+        System.out.println(ans);
     }
 }
