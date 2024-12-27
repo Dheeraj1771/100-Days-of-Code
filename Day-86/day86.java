@@ -11,6 +11,7 @@ public class day86 {
         return maxwealth;
     }
     public static void main(String[] args) {
+        int accounts[][] = new int[][] {{1,2,3} ,{3,2,1}};
         
     }
 }
