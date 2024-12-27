@@ -10,4 +10,7 @@ public class day86 {
         }
         return maxwealth;
     }
+    public static void main(String[] args) {
+        
+    }
 }
