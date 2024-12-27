@@ -1,3 +1,4 @@
+//Day86/100: LeetCode 1672. Richest Customer Wealth
 public class day86 {
     public int maximumWealth(int[][] accounts) {
         int maxwealth = 0;
@@ -12,6 +13,6 @@ public class day86 {
     }
     public static void main(String[] args) {
         int accounts[][] = new int[][] {{1,2,3} ,{3,2,1}};
-        
+
     }
 }
