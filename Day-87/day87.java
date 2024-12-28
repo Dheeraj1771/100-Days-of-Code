@@ -1,3 +1,5 @@
+//Day87/100: LeetCode 1431. Kids With the Greatest Number of Candies
+import java.util.*;
 public class day87 {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
         ArrayList<Boolean> list = new ArrayList<>();
