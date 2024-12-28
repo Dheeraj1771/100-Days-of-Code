@@ -20,5 +20,6 @@ public class day87 {
     }
     public static void main(String[] args) {
         int candies[] = new int[] {2,3,5,1,3};
+        int extraCandies = 3;
     }
 }
