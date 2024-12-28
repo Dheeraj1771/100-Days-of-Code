@@ -18,4 +18,7 @@ public class day87 {
         }
         return list;
     }
+    public static void main(String[] args) {
+        int candies[] = new int[] {2,3,5,1,3};
+    }
 }
