@@ -22,5 +22,6 @@ public class day88 {
     public static void main(String[] args) {
         String s = "ab-cd";
         String ans = reverseOnlyLetters(s);
+        System.out.println(ans);
     }
 }
