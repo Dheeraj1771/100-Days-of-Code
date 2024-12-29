@@ -1,6 +1,6 @@
 //Day88/100: LeetCode 917. Reverse Only Letters
 public class day88 {
-    public String reverseOnlyLetters(String s) {
+    public static String reverseOnlyLetters(String s) {
         String letters = "";
         for(int i = s.length()-1; i>=0; i--) {
             if(Character.isLetter(s.charAt(i))) {
@@ -20,6 +20,7 @@ public class day88 {
         return result;
     }
     public static void main(String[] args) {
-        
+        String s = "ab-cd";
+
     }
 }
