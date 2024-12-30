@@ -10,6 +10,7 @@ public class day89 {
         return count;
     }
     public static void main(String[] args) {
+        int hours[] = new int[] {1,2,3,4,5,6};
         
     }
 }
