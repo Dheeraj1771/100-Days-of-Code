@@ -13,5 +13,6 @@ public class day89 {
         int hours[] = new int[] {1,2,3,4,5,6};
         int target = 3;
         int ans = numberOfEmployeesWhoMetTarget(hours, target);
+        System.out.println(ans);
     }
 }
