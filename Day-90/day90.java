@@ -1,7 +1,7 @@
 //Day90/100: LeetCode 2798. Number of Employees Who Met the Target
 import java.util.*;
 public class day90 {
-    public String[] sortPeople(String[] names, int[] heights) {
+    public static String[] sortPeople(String[] names, int[] heights) {
         int n = names.length;
         Map<Integer, String> map = new HashMap<>();
         for(int i=0; i<n; i++) {
@@ -21,6 +21,11 @@ public class day90 {
     public static void main(String[] args) {
         String names[] = new String[] {"Mary","John","Emma"};
         int heights[] = new int[] {180,165,170};
-        
+        String ans[] = sortPeople(names, heights);
+        System.out.print("[ ");
+        for(int i=0; i<ans.length; i++) {
+            System.out.print(ans[i] + " ");
+        }
+        System.out.print("]");
     }
 }
