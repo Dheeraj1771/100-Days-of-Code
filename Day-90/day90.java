@@ -18,4 +18,7 @@ public class day90 {
         }
         return names;
     }
+    public static void main(String[] args) {
+        
+    }
 }
