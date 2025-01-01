@@ -19,5 +19,10 @@ public class day91 {
         int k = 5;
         int multiplier = 2;
         int ans[] = getFinalState(nums, k, multiplier);
+        System.out.print("[ ");
+        for(int i=0; i<ans.length; i++) {
+            System.out.print(ans[i] + " ");
+        }
+        System.out.print("]");
     }
 }
