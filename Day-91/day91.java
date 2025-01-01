@@ -1,3 +1,4 @@
+//Day91/100: LeetCode 3264. Final Array State After K Multiplication Operations I
 public class day91 {
     public int[] getFinalState(int[] nums, int k, int multiplier) {
         for(int i=0; i<k; i++) {
@@ -16,5 +17,6 @@ public class day91 {
     public static void main(String[] args) {
         int nums[] = new int[] {2,1,3,5,6};
         int k = 5;
+        int multiplier = 2;
     }
 }
