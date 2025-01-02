@@ -1,3 +1,4 @@
+//Day92/100: LeetCode 2824. Count Pairs Whose Sum is Less than Target
 import java.util.*;
 public class day92 {
     public static int countPairs(List<Integer> nums, int target) {
