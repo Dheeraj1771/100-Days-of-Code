@@ -18,5 +18,6 @@ public class day92 {
         nums.add(1);
         int target =  2;
         int ans = countPairs(nums, target);
+        System.out.println(ans);
     }
 }
