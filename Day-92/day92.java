@@ -1,3 +1,4 @@
+import java.util.*;
 public class day92 {
     public int countPairs(List<Integer> nums, int target) {
         int count = 0;
@@ -7,5 +8,8 @@ public class day92 {
             }
         }
         return count;
+    }
+    public static void main(String[] args) {
+        
     }
 }
