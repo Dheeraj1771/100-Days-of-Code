@@ -18,5 +18,6 @@ public class day93 {
         String ruleKey = "color";
         String rulwValue = "gold";
         int ans = countMatches(items, ruleKey, rulwValue);
+        System.out.println(ans);
     }
 }
