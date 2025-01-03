@@ -17,5 +17,6 @@ public class day93 {
         items.add(new ArrayList<>(List.of("phone", "gold", "iphone")));
         String ruleKey = "color";
         String rulwValue = "gold";
+        int ans = countMatches(items, ruleKey, rulwValue);
     }
 }
