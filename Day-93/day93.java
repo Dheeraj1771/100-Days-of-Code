@@ -11,6 +11,9 @@ public class day93 {
         return count;
     }
     public static void main(String[] args) {
-        
+        List<List<String>> items = new ArrayList<>();
+        items.add(new ArrayList<>(List.of("phone", "blue", "pixel")));
+        items.add(new ArrayList<>(List.of("computer", "silver", "lenovo")));
+        items.add(new ArrayList<>(List.of("phone", "gold", "iphone")));
     }
 }
