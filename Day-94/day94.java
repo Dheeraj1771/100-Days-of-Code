@@ -10,4 +10,8 @@ public class day94 {
         }
         return sb.toString();
     }
+    public static void main(String[] args) {
+        String s = "string";
+        
+    }
 }
