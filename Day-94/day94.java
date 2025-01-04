@@ -1,5 +1,5 @@
 public class day94 {
-    public String finalString(String s) {
+    public static String finalString(String s) {
         StringBuilder sb = new StringBuilder();
         for(int i=0; i<s.length(); i++) {
             if(s.charAt(i) == 'i') {
@@ -12,6 +12,7 @@ public class day94 {
     }
     public static void main(String[] args) {
         String s = "string";
-        
+        String ans = finalString(s);
+        System.out.println(ans);
     }
 }
