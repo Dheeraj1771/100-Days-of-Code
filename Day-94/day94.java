@@ -1,3 +1,4 @@
+//Day94/100: LeetCode 2810. Faulty Keyboard
 public class day94 {
     public static String finalString(String s) {
         StringBuilder sb = new StringBuilder();
