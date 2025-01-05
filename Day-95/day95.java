@@ -15,6 +15,7 @@ public class day95 {
     }
     public static void main(String[] args) {
         String s = "l|*e*et|c**o|*de|";
-
+        int ans = countAsterisks(s);
+        System.out.println(ans);
     }
 }
