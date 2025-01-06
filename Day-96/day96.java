@@ -1,3 +1,5 @@
+//Day96/100: LeetCode 3285. Find Indices of Stable Mountains
+import java.util.*;
 public class day96 {
     public List<Integer> stableMountains(int[] height, int threshold) {
         List<Integer> list = new ArrayList<>();
