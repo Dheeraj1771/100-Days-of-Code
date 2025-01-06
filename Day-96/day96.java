@@ -10,4 +10,9 @@ public class day96 {
         }
         return list;
     }
+    public static void main(String[] args) {
+        int height[] = new int[] {1,2,3,4,5};
+        int threshold = 2;
+        
+    }
 }
