@@ -1,7 +1,7 @@
 //Day96/100: LeetCode 3285. Find Indices of Stable Mountains
 import java.util.*;
 public class day96 {
-    public List<Integer> stableMountains(int[] height, int threshold) {
+    public static List<Integer> stableMountains(int[] height, int threshold) {
         List<Integer> list = new ArrayList<>();
         for(int i=0; i<height.length-1; i++) {
             if(height[i] > threshold) {
@@ -13,6 +13,7 @@ public class day96 {
     public static void main(String[] args) {
         int height[] = new int[] {1,2,3,4,5};
         int threshold = 2;
-        
+        List<Integer> ans = stableMountains(height, threshold);
+        System.out.println(ans);
     }
 }
