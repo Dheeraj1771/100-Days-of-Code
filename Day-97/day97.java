@@ -1,6 +1,6 @@
 //Day97/100: LeetCode 2574. Left and Right Sum Differences
 public class day97 {
-    public int[] leftRightDifference(int[] nums) {
+    public static int[] leftRightDifference(int[] nums) {
         int n = nums.length;
         int answer[] = new int[n];
         int leftsum[] = new int[n];
@@ -17,5 +17,9 @@ public class day97 {
             answer[k] = Math.abs(leftsum[k] - rightsum[k]); 
         }
         return answer;
+    }
+    public static void main(String[] args) {
+        int nums[] = new int[] {10,4,8,3};
+
     }
 }
