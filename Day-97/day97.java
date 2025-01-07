@@ -1,4 +1,5 @@
 //Day97/100: LeetCode 2574. Left and Right Sum Differences
+public class day97 {
     public int[] leftRightDifference(int[] nums) {
         int n = nums.length;
         int answer[] = new int[n];
