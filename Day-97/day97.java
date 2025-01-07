@@ -20,6 +20,11 @@ public class day97 {
     }
     public static void main(String[] args) {
         int nums[] = new int[] {10,4,8,3};
-
+        int ans[] = leftRightDifference(nums);
+        System.out.print("[ ");
+        for(int i=0; i<ans.length; i++) {
+            System.out.print(ans[i] + " ");
+        }
+        System.out.println("]");
     }
 }
